@@ -21,7 +21,7 @@ This is a cryptography package I wrote for my Data Security class from my Univer
        * GCM - Galois Counter Mode
    * Relative Frequencies Attack - performs an attack on a text based on relative frequency distribution. The attacker supposes that the text was encrypted on a 
     alphabet mapping rule.
-   * A Non Linear Feedback Shift Register - NLFSR which I designed.
+   * A Non Linear Feedback Shift Register - NLFSR  I designed.
     
     
     
