@@ -10,7 +10,7 @@ This is a cryptography package I wrote for my Data Security class from my Univer
        * A birthday attack - for finding any two different messages that produce the same hash.
    * RSA  -  A complete version of RSA encryption algorithm build with the help of BigInteger java class.
        * Features attack when Bob is not careful when choosing prime numbers $p,q$; that is when $|p-q|<2n^{1/4}$.
-   * HMAC with Simplified SHA-1 - A hash message authentication code written based on the scheme given below . 
+   * HMAC with Simplified SHA-1 - A hash message authentication code written based on a scheme. 
    * Digital Signature Scheme - Uses simplified AES for encryption of the message, signs with RSA the hash of the message calculated with Simplified SHA-1
    * Block Ciphers - Features several modes of operation with any encryption algorithm:
        * ECB - Electronic Code Book mode
@@ -21,7 +21,7 @@ This is a cryptography package I wrote for my Data Security class from my Univer
        * GCM - Galois Counter Mode
    * Relative Frequencies Attack - performs an attack on a text based on relative frequency distribution. The attacker supposes that the text was encrypted on a 
     alphabet mapping rule.
-   * A Non Linear Feedback Shift Register - NLFSR I designed which is given with the scheme below. 
+   * A Non Linear Feedback Shift Register - NLFSR which I designed.
     
     
     
