@@ -365,3 +365,18 @@ Below is given the scheme for Simplified SHA-1
 ![-lxiauf3v5iclvwzt-2](https://user-images.githubusercontent.com/84543584/201992247-e5ff0543-614f-40ca-9665-d21a376baa3a.jpg)
 ![-lxiauf3v5iclvwzt-3](https://user-images.githubusercontent.com/84543584/201992257-d8c4cdf1-11cb-4ae0-bad9-ab1e0a4ee48a.jpg)
 
+
+## NLFSR 
+
+There are 3 registers A, B and C. The lengths of the registers are 11, 21, 29 respectively. The register at the end has a length of 11+21+29 bits, which is given as the sum of the three registers gives the key stream after 11+21+29 cycles XOR-ed.
+
+* The output of each register is the XOR-sum of three bits:
+    1. last bit
+    2. a bit of a corresponding register position,
+    3. Output of the logical AND function of the two bits of the corresponding register.
+* The output of the logical AND function of two bits of one register is the input for one bit of the other register.
+* Output from register A is input to one bit of register B.
+* The first element of the registers is as the output of the logic function XOr between a bit of it and a bit from the other register.
+
+![Simplified Trivium](https://user-images.githubusercontent.com/84543584/201994646-66d639d8-0d48-4adf-a860-c307eaac4c56.jpg)
+
